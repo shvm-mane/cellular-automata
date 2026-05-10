@@ -5,8 +5,6 @@ Conway's Game of Life implemented using:
 - CellPyLib
 - Pure Python + Pygame
 
----
-
 ## Demos
 
 ### CellPyLib Version
@@ -16,8 +14,6 @@ Conway's Game of Life implemented using:
 ### Pygame From-Scratch Version
 
 ![Pygame Demo](assets/pygame_demo.gif)
-
----
 
 ## What is Cellular Automata?
 
@@ -34,8 +30,6 @@ The simulation demonstrates how:
 
 can generate highly complex global patterns.
 
----
-
 ## Conway's Game of Life Rules
 
 Each cell exists in one of two states:
@@ -50,8 +44,6 @@ At every generation:
 - Alive cell with more than 3 neighbors dies
 - Dead cell with exactly 3 neighbors becomes alive
 
----
-
 ## Implementations
 
 ### 1. CellPyLib Implementation
@@ -62,7 +54,6 @@ Features:
 - Random initialization
 - Text injection
 - Animated evolution
-- Fast prototyping
 
 ![CellPyLib Screenshot](assets/cellpylib_demo.png)
 
@@ -70,14 +61,7 @@ Features:
 
 Low-level implementation built completely from scratch using Pygame.
 
-Features:
-- Manual Conway rule engine
-- Neighbor counting
-- Real-time rendering
-
 ![Pygame Screenshot](assets/pygame_demo.png)
-
----
 
 ## Project Structure
 
@@ -102,9 +86,6 @@ cellular-automata-lab/
 └── docs/
 ```
 
----
-
-
 ## Future Improvements
 
 - Custom rule systems
@@ -116,5 +97,3 @@ cellular-automata-lab/
 - Performance optimizations
 - Pattern saving/loading
 - Interactive drawing tools
-
----
