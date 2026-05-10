@@ -66,7 +66,7 @@ Low-level implementation built completely from scratch using Pygame.
 ## Project Structure
 
 ```text
-cellular-automata-lab/
+cellular-automata/
 │
 ├── README.md
 ├── requirements.txt
