@@ -16,6 +16,8 @@ where simple local rules create complex emergent behavior.
 This project implements Conway's Game of Life,
 one of the most famous cellular automata systems.
 
+***
+
 ## Rules
 
 - Alive cell with fewer than 2 neighbors dies
@@ -26,18 +28,17 @@ one of the most famous cellular automata systems.
 ![CellPyLib](assets/cellpylib_demo.png)
 ![Pygame](assets/pygame_demo.png)
 
+***
+
 ## Project Structure
 
-'''
 cellular-automata-lab/
 ├── cellpylib_version/
 ├── pygame_from_scratch/
 ├── assets/
 └── docs/
-'''
 
-
----
+***
 
 ## Future Improvements
 
@@ -48,3 +49,5 @@ cellular-automata-lab/
 - Pattern loader
 - Music-reactive automata
 - Performance optimizations
+
+***
