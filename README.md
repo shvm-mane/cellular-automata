@@ -62,38 +62,3 @@ Features:
 Low-level implementation built completely from scratch using Pygame.
 
 ![Pygame Screenshot](assets/pygame_demo.png)
-
-## Project Structure
-
-```text
-cellular-automata/
-│
-├── README.md
-├── requirements.txt
-│
-├── cellpylib_version/
-│   └── mothers_day.py
-│
-├── pygame_from_scratch/
-│   └── conways_game_of_life.py
-│
-├── assets/
-│   ├── cellpylib_demo.gif
-│   ├── pygame_demo.gif
-│   ├── cellpylib_demo.png
-│   └── pygame_demo.png
-│
-└── docs/
-```
-
-## Future Improvements
-
-- Custom rule systems
-- GPU acceleration
-- Infinite grid support
-- Zoom and pan camera
-- Pattern loader
-- Music-reactive automata
-- Performance optimizations
-- Pattern saving/loading
-- Interactive drawing tools
